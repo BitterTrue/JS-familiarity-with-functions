@@ -21,7 +21,8 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
   /** вычисляет сумму двух чисел
    @param {number} number1 - первое число суммы
    @param {number}number2 - второе число суммы
-   @return возвращает результат суммы*/
+   @return возвращает результат суммы
+   */
    function sum(number1, number2){
     const result = number1 + number2;
     return result;
@@ -29,7 +30,8 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
   /** вычисляет разность двух чисел
    @param {number} number1 - первое число, уменьшаемое
    @param {number}number2 - второе число, вычитаемое
-   @return возвращает значение разности */
+   @return возвращает значение разности 
+   */
   function difference(number1, number2){
     if(number1 >= number2){
     const result= number1 - number2;
@@ -38,7 +40,8 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
   /** вычисляет произведение двух чисел
    @param {number} number1 - первое умножаемое число 
    @param {number}number2 - второе умножаемое число 
-   @return возвращает результат умножения */
+   @return возвращает результат умножения
+   */
   function multiplication(number1, number2) {
     const result = number1 * number2;
     return result;
@@ -46,7 +49,8 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
   /** вычисляет деление чисел
    @param {number} number1 - первое число, делимое
    @param {number}number2 - второе число, делитель
-   @return возвращает результат деления  */
+   @return возвращает результат деления  
+   */
   function division(number1, number2){
     const result = number1 / number2;
     return result;
